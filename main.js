@@ -13,7 +13,7 @@ Vue.createApp({
         {
           axios
             .get(
-              "https://raw.githubusercontent.com/romanofajarikhsan/Tekweb2/main/content/header.json"
+              "https://raw.githubusercontent.com/romanofajarikhsan/test123/main/content/header.json"
               )
             .then((res) => {              
               this.header = res.data;
@@ -27,7 +27,7 @@ Vue.createApp({
         {
             axios
             .get(
-              "https://raw.githubusercontent.com/romanofajarikhsan/Tekweb2/main/content/articles.json"
+              "https://raw.githubusercontent.com/romanofajarikhsan/test123/main/content/articles.json"
             )
             .then((res) => {              
               this.articles = res.data;
